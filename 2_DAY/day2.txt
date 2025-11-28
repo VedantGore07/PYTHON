@@ -1,0 +1,100 @@
+Python basics
+
+1. variable --> container
+
+myvar = "john"
+_my_var = "john"
+my_var = "john"
+myVar = "john"
+MYVAR = "john"
+myvar2 = "john"
+
+python is case sensitive
+
+var, VAR, Var  --> python is case sensitive
+
+1. variable name must start with letter
+2. it should not start with a digit
+3. variable name can only contain alpha numeric(characters, numbers, underscore)
+4. variable names are case sensitive
+5. variable name cannot be reserved words
+
+
+// Reserved words -->
+and 
+await
+if
+else
+False
+True
+assert
+async
+None
+break
+class
+continue
+def
+del
+elif
+except
+finally for
+from
+global
+
+
+// comments in python --> 
+#
+'''            statement         '''
+
+
+// operators in python -->
+
+1 comparision operator
+2 logical
+3 bitwise
+4 assignment
+
+5 python identity operator
+
+is     -- returns True if both variables are same object    x is y
+
+is not -- returns True if both variables are nt same    x is not y
+
+
+6 python membership operator
+
+in   -- returns True if a sequence with the specified value is present in the object    x in y
+
+not in   -- returns True if a sequence with the specified value is not present in the object    x not in y
+
+
+
+/// operator precendence
+
+parantheses ()
+** Exponentiation
++x, -x
+*, /, //, %
++, -
+<<, >>
+Bitwise AND, Bitwise XOR, Bitwise OR
+
+
+
+/// Ternary operator
+print("hi") if a>4 else print("welcome")
+
+
+
+/// Data types  -->
+Numeric Types: int, float, complex(4+5j)
+Text Types: str
+Sequence types: List, tuple, range
+Mapping types: dict
+Set types: set, frozenset
+Boolean types: bool
+Binary types: bytes, bytearray, memoryview
+None type: noneType
+
+
+
