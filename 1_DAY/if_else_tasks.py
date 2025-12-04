@@ -72,6 +72,7 @@ elif operation == "div":
 else:
     print("Invalid operation selected")
 
+
 #task8
 percentage = float(input("Enter your score percentage: "))
 
